@@ -1,0 +1,103 @@
+
+<style>
+/* Giving the body the specified background color, adding font sizes for the h1 and h3 elements we'll be using */
+/* Styling for HTML elements */
+
+.class navbar-brand {
+    color: #333;
+    background-color: lightseagreen;
+    font-size:18px;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 18px;
+    line-height: 150%;
+    color: #333;
+    background: #928838;
+    background-color: rgb(195, 197, 194);
+  }
+  
+  header {
+    background: rgb(226, 215, 215);
+  }
+
+  #bold-font {
+    font-size: 25px;
+    font-weight: bold;
+    color: skyblue
+  }
+  
+  .footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(105, 111, 112);
+  color: rgb(243, 243, 250);
+  text-align: center;
+}
+
+.box {
+    background-color: whitesmoke;
+}
+
+  h1 {
+    padding: 20px 0;
+    margin-left: 200;
+    margin-right: 700px;
+    font-size: 28px;
+    color: rgb(238, 238, 238);
+    text-align:left;
+    background-color: rgb(9, 129, 129)
+  }
+  
+  h2 {
+    font-size: 18px;
+    text-anchor: start;
+  }
+  
+  a {
+    color: #d21034;
+  }
+  
+  /* Selecting elements by class */
+  .container {
+    width: 1024px;
+    margin: 10 auto;
+  }
+  
+  /* Selecting elements by ID */
+  #main-bio,
+  #contact-info,
+  #bio-image {
+    float: left;
+  }
+  
+  #figure {
+    position: relative;
+  }
+  
+  #bio-name {
+    position: absolute;
+    top: 150px;
+    left: 30px;
+  }
+  
+  #main-bio {
+    width: 70%;
+  }
+  
+  #contact-info {
+    width: 30%;
+  }
+  
+  #bio-image {
+    width: 200px;
+    height: 200px;
+    margin-right: 20px;
+  }
+  
+</style>
